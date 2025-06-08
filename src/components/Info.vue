@@ -31,7 +31,7 @@ export default {
   // data 함수를 사용하여 컴포넌트의 초기 데이터를 정의합니다.
   data() {
     return {
-      name: '양태원원',
+      name: '양태원',
       birthday: '2004.07.05',
       army: {
         isMilitaryService: false,

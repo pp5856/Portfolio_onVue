@@ -12,6 +12,11 @@
       <a :href="gitUrl" target="_blank" @click="gitClicks">Git 으로 이동</a> (총
       방문자 수: {{ visitCounter }})
     </p>
+    <p>
+      <a href="https://github.com/pp5856/Portfolio_onVue" target="_blank"
+        >현재 Portfolio Github repository</a
+      >
+    </p>
   </div>
 </template>
 
