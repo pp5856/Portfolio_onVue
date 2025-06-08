@@ -6,6 +6,8 @@
     <ConTact></ConTact>
     <EduCation></EduCation>
     <Project></Project>
+    <hr />
+    <FamilyTable></FamilyTable>
   </div>
 </template>
 
@@ -23,6 +25,8 @@ import EduCation from './EduCation.vue';
 // 프로젝트 컴포넌트
 import Project from './Project.vue';
 
+import FamilyTable from './FamilyTable.vue';
+
 export default {
   name: 'App',
   components: {
@@ -32,6 +36,7 @@ export default {
     AboutMe,
     EduCation,
     Project,
+    FamilyTable,
   },
 };
 </script>
